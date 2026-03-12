@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 
 class AWSGHCNClient:
-    """Einfacher AWS Client ohne Cache und komplexe Features"""
     
     BASE_URL = "https://noaa-ghcn-pds.s3.amazonaws.com/csv"
     
